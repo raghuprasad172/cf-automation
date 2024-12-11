@@ -1,0 +1,12 @@
+image: selenium/standalone-chrome:latest
+
+pipelines:
+  default:
+    - step:
+        name: Setup and Test
+        services:
+          - docker
+        script:
+          - apt-get update && apt-get install -y maven
+          - mvn clean install
+          - mvn test

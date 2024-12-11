@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <suite-files>
+        <suite-file path="testng.xml"></suite-file>
+    </suite-files>
+    <test name="Automated Sanity Test">
+        <classes>
+            <class name="cf.nbfc.saarthi.tests.generic.AgentLoginTest">
+                <methods>
+                    <include name="validateLoginPageTitle"/>
+                    <include name="validateLoginButtonIsDisplayed"/>
+                    <include name="validateAgentIsAbletonLogin"/>
+                </methods>
+            </class>
+            <class name="cf.nbfc.saarthi.tests.sourcing.AgentOnboardTest">
+                <methods>
+                    <include name="validateMyLeadsMenuIsDisplayed"/>
+                    <include name="validateAddNewLead"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

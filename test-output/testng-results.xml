@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-14T16:46:13 IST" name="All Test Suite" finished-at="2024-11-14T16:47:52 IST" duration-ms="98785">
+    <groups>
+    </groups>
+    <test started-at="2024-11-14T16:46:13 IST" name="Automated Sanity Test" finished-at="2024-11-14T16:47:52 IST" duration-ms="98785">
+      <class name="cf.nbfc.saarthi.tests.sourcing.AgentOnboardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cf.nbfc.saarthi.tests.sourcing.AgentOnboardTest@1b1cfb87]" started-at="2024-11-14T16:47:10 IST" name="setUp" finished-at="2024-11-14T16:47:47 IST" duration-ms="37312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateMyLeadsMenuIsDisplayed()[pri:1, instance:cf.nbfc.saarthi.tests.sourcing.AgentOnboardTest@1b1cfb87]" started-at="2024-11-14T16:47:47 IST" name="validateMyLeadsMenuIsDisplayed" finished-at="2024-11-14T16:47:51 IST" duration-ms="3699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyLeadsMenuIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cf.nbfc.saarthi.tests.sourcing.AgentOnboardTest@1b1cfb87]" started-at="2024-11-14T16:47:51 IST" name="tearDown" finished-at="2024-11-14T16:47:52 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cf.nbfc.saarthi.tests.sourcing.AgentOnboardTest -->
+      <class name="cf.nbfc.saarthi.tests.generic.AgentLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cf.nbfc.saarthi.tests.generic.AgentLoginTest@338fc1d8]" started-at="2024-11-14T16:46:13 IST" name="setUp" finished-at="2024-11-14T16:46:18 IST" duration-ms="5459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginPageTitle()[pri:1, instance:cf.nbfc.saarthi.tests.generic.AgentLoginTest@338fc1d8]" started-at="2024-11-14T16:46:19 IST" name="validateLoginPageTitle" finished-at="2024-11-14T16:46:19 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cf.nbfc.saarthi.tests.generic.AgentLoginTest@338fc1d8]" started-at="2024-11-14T16:46:19 IST" name="tearDown" finished-at="2024-11-14T16:46:19 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cf.nbfc.saarthi.tests.generic.AgentLoginTest@338fc1d8]" started-at="2024-11-14T16:46:19 IST" name="setUp" finished-at="2024-11-14T16:46:23 IST" duration-ms="3459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginButtonIsDisplayed()[pri:2, instance:cf.nbfc.saarthi.tests.generic.AgentLoginTest@338fc1d8]" started-at="2024-11-14T16:46:23 IST" name="validateLoginButtonIsDisplayed" finished-at="2024-11-14T16:46:24 IST" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginButtonIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cf.nbfc.saarthi.tests.generic.AgentLoginTest@338fc1d8]" started-at="2024-11-14T16:46:24 IST" name="tearDown" finished-at="2024-11-14T16:46:24 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cf.nbfc.saarthi.tests.generic.AgentLoginTest@338fc1d8]" started-at="2024-11-14T16:46:24 IST" name="setUp" finished-at="2024-11-14T16:46:28 IST" duration-ms="3869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateAgentIsAbletonLogin()[pri:3, instance:cf.nbfc.saarthi.tests.generic.AgentLoginTest@338fc1d8]" started-at="2024-11-14T16:46:28 IST" name="validateAgentIsAbletonLogin" finished-at="2024-11-14T16:47:07 IST" duration-ms="39273" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Agent login is failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Agent login is failed
+at org.testng.Assert.fail(Assert.java:111)
+at cf.nbfc.pom.saarthi.generics.LoginPage.loginInAsAgent(LoginPage.java:87)
+at cf.nbfc.saarthi.tests.generic.AgentLoginTest.validateAgentIsAbletonLogin(AgentLoginTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAgentIsAbletonLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cf.nbfc.saarthi.tests.generic.AgentLoginTest@338fc1d8]" started-at="2024-11-14T16:47:10 IST" name="tearDown" finished-at="2024-11-14T16:47:10 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cf.nbfc.saarthi.tests.generic.AgentLoginTest -->
+    </test> <!-- Automated Sanity Test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
